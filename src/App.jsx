@@ -1,11 +1,13 @@
 import { useState } from 'react'
+import Header from './components/Header'
+import LostItemListPage from './pages/LostItemListPage'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <Header></Header>
+      <LostItemListPage></LostItemListPage>
     </>
   )
 }
