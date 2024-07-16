@@ -16,9 +16,6 @@ const Header = () => {
 
 }
 const HeaderWrap = styled.div`
-    position: fixed;
-    top: 0;
-    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
