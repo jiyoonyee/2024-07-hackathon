@@ -1,4 +1,4 @@
-import Aside from "../components/Layouts/Aside"
+import Aside from "../components/Aside"
 import styled from "styled-components"
 
 const LostItemListPage = () => {
