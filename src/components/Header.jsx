@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 
 const Header = () => {
+    
     return(
         <>
             <HeaderWrap className="header" style={{padding:"0px 30px"}}> 
@@ -16,17 +17,15 @@ const Header = () => {
 
 }
 const HeaderWrap = styled.div`
-    position: fixed;
-    top: 0;
-    z-index: 10;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
     background-color: white;
-    width: 100vw;
+    width: 100%;
     height: auto;
 `
+
 
 
 export default Header
